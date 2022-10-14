@@ -1,0 +1,132 @@
+img{
+    display:"block";
+    padding-right: 10px;
+    margin-right: 10px;
+    vertical-align:top;
+    background-color: white;
+  
+  }
+  
+  div.static {
+    position: static;
+    border: 3px solid #73ad21;
+  }
+  
+  .relative {
+    position: relative;
+    left: 40px;
+  }
+  
+  .relative_lists {
+    position: relative;
+    left: 20px;
+  }
+  
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73ad21;
+  }
+  
+  .fixed {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /*width: 300px;*/
+    border: 2px solid red;
+    background-color: white;
+  }
+  
+  
+  div.sticky{
+    position:sticky;
+    top:0;
+  }
+  
+  .combined{
+    display:inline-block;
+    vertical-align:middle;
+  }
+  
+  
+  .summary_space{
+    /*margin-top: 500px;*/
+    background-color:  #e6f2ff;
+  }
+  
+  
+  body {
+      background-color: white;
+      color: red;
+      font-family: Georgia;
+      font-size: 20px;
+    }
+  
+    p {
+        text-align: left;
+        color: black;
+        font-family:verdana;
+    }
+    
+    li {
+      font-family:verdana;
+      color: black;
+    }
+  
+    form {
+        text-align:left;
+      font-family:verdana;
+      color: black;
+    }
+  
+    table{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    h2 {
+        margin-top:20px;
+        margin-bottom: -10px;
+        text-align: left;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h4 {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border-style: dashed;
+      border-color: blueviolet;
+      border-width: 2px 0px 2px 0px;
+      border-radius: 0px 0px 0px 0px;
+      padding-bottom: 5px;
+  }
+  i{
+    padding-top: 5px;
+  }
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 12px;
+    height: 12px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
